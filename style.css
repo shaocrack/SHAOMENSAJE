@@ -1,0 +1,556 @@
+@charset "UTF-8";
+
+@keyframes typed {
+  /* keyframes para mostrar el texto */
+  0%, 0.4286% {
+    content: "S";
+  }
+  0.4286%, 0.8572% {
+    content: "SH";
+  }
+  0.8572%, 1.2858% {
+    content: "SHA";
+  }
+  1.2858%, 1.7144% {
+    content: "SHAO";
+  }
+  1.7144%, 2.1430% {
+    content: "SHAO ";
+  }
+  2.1430%, 2.5716% {
+    content: "SHAO P";
+  }
+  2.5716%, 3.0002% {
+    content: "SHAO PR";
+  }
+  3.0002%, 3.4288% {
+    content: "SHAO PRO";
+  }
+  3.4288%, 3.8574% {
+    content: "SHAO PRO ";
+  }
+  3.8574%, 4.2860% {
+    content: "SHAO PRO C";
+  }
+  4.2860%, 4.7146% {
+    content: "SHAO PRO C:";
+  }
+  4.7146%, 5.1432% {
+    content: "SHAO PRO C: ";
+  }
+  5.1432%, 5.5718% {
+    content: "SHAO PRO C: T";
+  }
+  5.5718%, 6.0004% {
+    content: "SHAO PRO C: TE";
+  }
+  6.0004%, 6.4290% {
+    content: "SHAO PRO C: TE ";
+  }
+  6.4290%, 6.8576% {
+    content: "SHAO PRO C: TE D";
+  }
+  6.8576%, 7.2862% {
+    content: "SHAO PRO C: TE DI";
+  }
+  7.2862%, 7.7148% {
+    content: "SHAO PRO C: TE DIC";
+  }
+  7.7148%, 8.1434% {
+    content: "SHAO PRO C: TE DICE";
+  }
+  8.1434%, 8.5720% {
+    content: "SHAO PRO C: TE DICE ";
+  }
+  8.5720%, 9.0006% {
+    content: "SHAO PRO C: TE DICE Q";
+  }
+  9.0006%, 9.4292% {
+    content: "SHAO PRO C: TE DICE QU";
+  }
+  9.4292%, 9.8578% {
+    content: "SHAO PRO C: TE DICE QUE";
+  }
+  9.8578%, 10.2864% {
+    content: "SHAO PRO C: TE DICE QUE ";
+  }
+  10.2864%, 10.7150% {
+    content: "SHAO PRO C: TE DICE QUE T";
+  }
+  10.7150%, 11.1436% {
+    content: "SHAO PRO C: TE DICE QUE TE";
+  }
+  11.1436%, 11.5722% {
+    content: "SHAO PRO C: TE DICE QUE TEN";
+  }
+  11.5722%, 12.0008% {
+    content: "SHAO PRO C: TE DICE QUE TENG";
+  }
+  12.0008%, 12.4294% {
+    content: "SHAO PRO C: TE DICE QUE TENGA";
+  }
+  12.4294%, 12.8580% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  12.8580%, 13.2866% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS ";
+  }
+  13.2866%, 13.7152% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN";
+  }
+  13.7152%, 14.1438% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN ";
+  }
+  14.1438%, 14.5724% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN B";
+  }
+  14.5724%, 15.0010% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BO";
+  }
+  15.0010%, 15.4296% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BON";
+  }
+  15.4296%, 15.8582% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONI";
+  }
+  15.8582%, 16.2868% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONIT";
+  }
+  16.2868%, 16.7154% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO";
+  }
+  16.7154%, 17.1440% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO ";
+  }
+  17.1440%, 17.5726% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO D";
+  }
+  17.5726%, 18.0012% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DI";
+  }
+  18.0012%, 18.4298% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA";
+  }
+  18.4298%, 18.8584% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA,";
+  }
+  18.8584%, 19.2870% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ";
+  }
+  19.2870%, 19.7156% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, A";
+  }
+  20.1442%, 20.5728% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, AS";
+  }
+  21.0014%, 21.4300% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI ";
+  }
+  21.4300%, 21.8586% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI C";
+  }
+  21.8586%, 22.2872% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI CO";
+  }
+  22.2872%, 22.7158% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COM";
+  }
+  22.7158%, 23.1444% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO";
+  }
+  23.1444%, 23.5730% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO ";
+  }
+  23.5730%, 24.0016% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO T";
+  }
+  24.0016%, 24.4302% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TU";
+  }
+  /* keyframes para retroceso */
+  24.4302%, 24.859% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TU";
+  }
+  24.859%, 25.2876% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO T";
+  }
+  25.2876%, 25.7162% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO ";
+  }
+  25.7162%, 26.1448% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI";
+  }
+  26.1448%, 26.5734% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, AS";
+  }
+  26.5734%, 27.002% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, A";
+  }
+  27.002%, 27.4306% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA,";
+  }
+  27.4306%, 27.8592% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DI";
+  }
+  27.8592%, 28.2878% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO D";
+  }
+  28.2878%, 28.7164% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO";
+  }
+  28.7164%, 29.145% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONIT";
+  }
+  29.145%, 29.5736% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONI";
+  }
+  29.5736%, 30.0022% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BON";
+  }
+  30.0022%, 30.4308% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BO";
+  }
+  30.4308%, 30.8594% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN B";
+  }
+  30.8594%, 31.288% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN";
+  }
+  31.288%, 31.7166% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS U";
+  }
+  31.7166%, 32.1452% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  32.1452%, 32.5738% {
+    content: "SHAO PRO C: TE DICE QUE TENGA";
+  }
+  32.5738%, 33.0024% {
+    content: "SHAO PRO C: TE DICE QUE TENG";
+  }
+  33.0024%, 33.431% {
+    content: "SHAO PRO C: TE DICE QUE TEN";
+  }
+  33.431%, 33.8596% {
+    content: "SHAO PRO C: TE DICE QUE TE";
+  }
+  33.8596%, 34.2882% {
+    content: "SHAO PRO C: TE DICE QUE T";
+  }
+  34.2882%, 34.7168% {
+    content: "SHAO PRO C: TE DICE QUE ";
+  }
+  34.7168%, 35.1454% {
+    content: "SHAO PRO C: TE DICE QUE";
+  }
+  35.1454%, 35.574% {
+    content: "SHAO PRO C: TE DICE Q";
+  }
+  35.574%, 36.0026% {
+    content: "SHAO PRO C: TE DICE ";
+  }
+  36.0026%, 36.4312% {
+    content: "SHAO PRO C: TE DICE";
+  }
+  36.4312%, 36.8598% {
+    content: "SHAO PRO C: TE DIC";
+  }
+  36.8598%, 37.2884% {
+    content: "SHAO PRO C: TE DI";
+  }
+  37.2884%, 37.717% {
+    content: "SHAO PRO C: TE D";
+  }
+  37.717%, 38.1456% {
+    content: "SHAO PRO C: TE";
+  }
+  38.1456%, 38.5742% {
+    content: "SHAO PRO C: T";
+  }
+  38.5742%, 39.0028% {
+    content: "SHAO PRO C: ";
+  }
+  39.0028%, 39.4314% {
+    content: "SHAO PRO C:";
+  }
+  39.4314%, 39.86% {
+    content: "SHAO PRO C";
+  }
+  39.86%, 40.2886% {
+    content: "SHAO PRO ";
+  }
+  40.2886%, 40.7172% {
+    content: "SHAO PR";
+  }
+  40.7172%, 41.1458% {
+    content: "SHAO P";
+  }
+  41.1458%, 41.5744% {
+    content: "SHAO ";
+  }
+  41.5744%, 42.003% {
+    content: "SHAO";
+  }
+  42.003%, 42.4316% {
+    content: "SHA";
+  }
+  42.4316%, 42.8602% {
+    content: "SH";
+  }
+  42.8602%, 43.2888% {
+    content: "S";
+  }
+}
+
+/* Define la duración total de la animación y la pausa antes del retroceso */
+.typed-text {
+  animation: typed 50s steps(1) infinite, retroceso 5s steps(1) infinite;
+}
+
+@keyframes retroceso {
+  /* keyframes para retroceso */
+  0%, 0.4286% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TU";
+  }
+  0.4286%, 0.8572% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO T";
+  }
+  0.8572%, 1.2858% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO ";
+  }
+  1.2858%, 1.7144% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO";
+  }
+  1.7144%, 2.1430% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COM";
+  }
+  2.1430%, 2.5716% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI CO";
+  }
+  2.5716%, 3.0002% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI C";
+  }
+  3.0002%, 3.4288% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, AS";
+  }
+  3.4288%, 3.8574% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, A";
+  }
+  3.8574%, 4.2860% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA,";
+  }
+  4.2860%, 4.7146% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DI";
+  }
+  4.7146%, 5.1432% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO D";
+  }
+  5.1432%, 5.5718% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO";
+  }
+  5.5718%, 6.0004% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONIT";
+  }
+  6.0004%, 6.4290% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONI";
+  }
+  6.4290%, 6.8576% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BON";
+  }
+  6.8576%, 7.2862% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BO";
+  }
+  7.2862%, 7.7148% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN B";
+  }
+  7.7148%, 8.1434% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN";
+  }
+  8.1434%, 8.5720% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  8.5720%, 9.0006% {
+    content: "SHAO PRO C: TE DICE QUE TENGA";
+  }
+  9.0006%, 9.4292% {
+    content: "SHAO PRO C: TE DICE QUE TENG";
+  }
+  9.4292%, 9.8578% {
+    content: "SHAO PRO C: TE DICE QUE TENG";
+  }
+  9.8578%, 10.2864% {
+    content: "SHAO PRO C: TE DICE QUE TENGA";
+  }
+  10.2864%, 10.7150% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  10.7150%, 11.1436% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  11.1436%, 11.5722% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  11.5722%, 12.0008% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  12.0008%, 12.4294% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  12.4294%, 12.8580% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  12.8580%, 13.2866% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  13.2866%, 13.7152% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  13.7152%, 14.1438% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  14.1438%, 14.5724% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  14.5724%, 15.0010% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  15.0010%, 15.4296% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  15.4296%, 15.8582% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  15.8582%, 16.2868% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  16.2868%, 16.7154% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  16.7154%, 17.1440% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  17.1440%, 17.5726% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  17.5726%, 18.0012% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  18.0012%, 18.4298% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  18.4298%, 18.8584% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  18.8584%, 19.2870% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  19.2870%, 19.7156% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  20.1442%, 20.5728% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  21.0014%, 21.4300% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  21.4300%, 21.8586% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  21.8586%, 22.2872% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  22.2872%, 22.7158% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  22.7158%, 23.1444% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  23.1444%, 23.5730% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  23.5730%, 24.0016% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+  24.0016%, 24.4302% {
+    content: "SHAO PRO C: TE DICE QUE TENGAS";
+  }
+}
+
+
+
+
+@-webkit-keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+@keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+* {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+html, body {
+  height: 100%;
+} 
+
+body {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  background-color: #000;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.125), rgba(255, 255, 255, 0)), linear-gradient(to bottom, #000, #000 2px, #111 3px);
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-size: cover, 100% 3px;
+  font-size: calc(10px + 2vw);
+  font-family: 'VT323', monospace, sans-serif;
+  color: #3f3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body::after {
+  content: "​";
+  position: relative;
+  top: -13px;
+  display: inline-block;
+  padding-right: 3px;
+  padding-right: calc(3px + 0.1vw);
+  border-right: 10px solid rgba(51, 255, 51, 0.75);
+  border-right: calc(1.1vw + 4px) solid rgba(51, 255, 51, 0.75);
+  text-shadow: 0 0 5px rgba(51, 255, 51, 0.75);
+  white-space: nowrap;
+  -webkit-animation: typed 18.36s linear 1s infinite, beam-blink 1s infinite;
+          animation: typed 18.36s linear 1s infinite, beam-blink 1s infinite;
+}
+@media (max-width: 575px) {
+  body::after {
+    top: -33px;
+  }
+}
+body::before {
+  content: "3 strings / 52 chars / 18.36s duration";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 3px 0;
+  background: #00f;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  white-space: pre-wrap;
+}
+@media (max-width: 575px) {
+  body::before {
+    content: "3 strings \a 52 chars \a 18.36s duration";
+  }
+}
