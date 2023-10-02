@@ -8,14 +8,14 @@
 </head>
 <body>
   <div class="container">
-    <button id="showButton" class="show">Da click aquí hermosa</button>
+    <button id="showButton" class="show">Da click hermosa</button>
   </div>
   <script>
     const showButton = document.getElementById("showButton");
-
+  
     // Agrega un evento para mostrar el botón después de 10 segundos
     setTimeout(() => {
-      showButton.classList.add("visible");
+      showButton.style.display = "block";
     }, 10000);
   </script>
 </body>
