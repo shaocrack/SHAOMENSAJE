@@ -373,7 +373,7 @@ body::after {
   }
 }
 body::before {
-  content: "SHAO ROMANTICOs / HACKEANDO TU CORAZÓN / MY SHUNGO LATE FOR YOU";
+  content: "SHAO ROMANTICO / HACKEANDO TU CORAZÓN / MY SHUNGO LATE FOR YOU";
   display: block;
   position: absolute;
   bottom: 0;
@@ -386,9 +386,65 @@ body::before {
   letter-spacing: 0.7px;
   white-space: pre-wrap;
 }
+
+/* para el bootn */
+/* ... Código CSS anterior ... */
+
+/* Estilos para el botón */
+.show {
+  display: none; /* Inicialmente oculto */
+  position: absolute;
+  top: 70%; /* Centra verticalmente */
+  left: 50%; /* Centra horizontalmente */
+  transform: translate(-50%, -50%); /* Centra exactamente en el centro */
+  padding: 10px 20px;
+  background-color: rgba(51, 255, 51, 0.75); /* Color de fondo morado */
+  color: #fff; /* Color del texto blanco */
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out; /* Animación de transición */
+}
+
+.show:hover {
+  background-color: #007bff; /* Cambia a azul al pasar el mouse */
+  transform: translate(-50%, -50%) scale(1.05); /* Hace el botón un poco más grande al pasar el mouse */
+}
+
+.show::after {
+  content: "Si da click aquí"; /* Texto que aparecerá al pasar el mouse */
+  position: absolute;
+  top: 100%; /* Posición debajo del botón */
+  left: 50%;
+  transform: translateX(-50%); /* Centra horizontalmente */
+  background-color: #007bff; /* Color de fondo azul */
+  color: #fff; /* Color del texto blanco */
+  padding: 5px 10px;
+  font-size: 12px;
+  opacity: 0; /* Inicialmente invisible */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.show:hover::after {
+  opacity: 1; /* Hace visible el texto al pasar el mouse */
+}
+
+.visible {
+  display: block; /* Muestra el botón después de 10 segundos */
+}
+
+/* ... Resto del código CSS ... */
+
+
+/*  FIN para el bootn */
+
+
+
+
+
 @media (max-width: 575px) {
   body::after {
-    content: "SHAO ROMANTICOs / HACKEANDO TU CORAZÓN / MY SHUNGO LATE FOR YOU";
+    content: "SHAO ROMANTICO / HACKEANDO TU CORAZÓN / MY SHUNGO LATE FOR YOU";
     top: auto; /* Reinicia la posición vertical en pantallas pequeñas */
     left: 0; /* Asegura que el texto esté alineado a la izquierda */
     position: relative; /* Cambia a posición relativa para ajustar verticalmente */

@@ -1,17 +1,22 @@
-<!doctype html>
-<!--[if lte IE 9]>
-<html lang="en" class="oldie">
-<![endif]-->
-<!--[if gt IE 9]><!-->
+<!DOCTYPE html>
 <html lang="en">
-<!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SHAO MENSAJE</title>
   <link rel="stylesheet" media="all" href="style.css" />
 </head>
 <body>
+  <div class="container">
+    <button id="showButton" class="show">Da click aquí hermosa</button>
+  </div>
+  <script>
+    const showButton = document.getElementById("showButton");
 
+    // Agrega un evento para mostrar el botón después de 10 segundos
+    setTimeout(() => {
+      showButton.classList.add("visible");
+    }, 10000);
+  </script>
 </body>
 </html>
