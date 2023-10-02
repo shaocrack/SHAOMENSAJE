@@ -339,7 +339,7 @@ body {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   -webkit-box-pack: center;
           justify-content: center;
   background-color: #000;
@@ -347,7 +347,7 @@ body {
   background-repeat: repeat-y;
   background-position: center center;
   background-size: cover, 100% 3px;
-  font-size: calc(10px + 2vw);
+  font-size: calc(6px + 2vw);
   font-family: 'VT323', monospace, sans-serif;
   color: #3f3;
   -webkit-font-smoothing: antialiased;
@@ -373,7 +373,7 @@ body::after {
   }
 }
 body::before {
-  content: "3 strings / 52 chars / 18.36s duration";
+  content: "SHAO ROMANTICOs / HACKEANDO TU CORAZÓN / MY SHUNGO LATE FOR YOU";
   display: block;
   position: absolute;
   bottom: 0;
@@ -387,7 +387,13 @@ body::before {
   white-space: pre-wrap;
 }
 @media (max-width: 575px) {
-  body::before {
-    content: "3 strings \a 52 chars \a 18.36s duration";
+  body::after {
+    content: "SHAO ROMANTICOs / HACKEANDO TU CORAZÓN / MY SHUNGO LATE FOR YOU";
+    top: auto; /* Reinicia la posición vertical en pantallas pequeñas */
+    left: 0; /* Asegura que el texto esté alineado a la izquierda */
+    position: relative; /* Cambia a posición relativa para ajustar verticalmente */
+    transform: none; /* Reinicia cualquier transformación aplicada */
+    text-align: left; /* Alinea el texto a la izquierda */
+    white-space: pre-wrap;
   }
 }
