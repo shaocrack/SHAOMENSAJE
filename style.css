@@ -165,26 +165,26 @@
     content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO T";
   }
   24.0016%, 24.4302% {
-    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TU";
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TÚ";
   }
   /* keyframes para retroceso */
   24.4302%, 24.859% {
-    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TU";
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TÚ";
   }
   24.859%, 25.2876% {
-    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TU";
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TÚ";
   }
   25.2876%, 25.7162% {
-    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TU";
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TÚ";
   }
   25.7162%, 26.1448% {
-    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TU";
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TÚ";
   }
   26.1448%, 26.5734% {
-    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TU";
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TÚ";
   }
   26.5734%, 27.002% {
-    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TU";
+    content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA, ASI COMO TÚ";
   }
   27.002%, 27.4306% {
     content: "SHAO PRO C: TE DICE QUE TENGAS UN BONITO DIA,ASI COMO T";
@@ -303,6 +303,13 @@
   43.8602%, 44.2888% {
     content: " ";
   }
+  44.8602%, 45.2888% {
+    content: "C:";
+  }
+  45.8602%, 46.2888% {
+    content: "C:";
+  }
+  
 }
 
 
