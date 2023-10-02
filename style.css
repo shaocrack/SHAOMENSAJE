@@ -404,6 +404,8 @@ body::before {
   cursor: pointer;
   font-size: 25px;
   transition: all 0.3s ease-in-out; /* Animación de transición */
+  border-radius: 10px;
+  box-shadow: 10px 5px 10px  rgba(76, 216, 100, 0.459);
   animation: textColor 10s ease infinite;
   Font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace
 }
@@ -412,7 +414,7 @@ body::before {
     color: #111110;
   }
   50% {
-    color: #e0e4e3;
+    color: #1619db;
   }
   100% {
     color: #080705;
@@ -436,6 +438,8 @@ body::before {
   font-size: 12px;
   opacity: 0; /* Inicialmente invisible */
   transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 10px 0px 10px #007bff;
 }
 
 .show:hover::after {
