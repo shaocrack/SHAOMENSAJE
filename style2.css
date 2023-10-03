@@ -73,7 +73,7 @@ body {
 }
 
 body::before {
-  content: "SHAO ROMANTICO / HACKEANDO TU CORAZÓN / MY SHUNGO LATE FOR YOU";
+  /* content: "SHAO ROMANTICO / HACKEANDO TU CORAZÓN / MY SHUNGO LATE FOR YOU"; */
   display: block;
   position: absolute;
   bottom: 0;
