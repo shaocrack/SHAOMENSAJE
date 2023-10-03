@@ -20,10 +20,16 @@
   font-size: 25px;
   color:  #3f3;
   margin-top: 20px; /* Agrega espacio entre el input y el texto */
-  white-space: nowrap; /* Evita el salto de línea en el texto */
-  overflow: hidden; /* Oculta el texto que desborda el contenedor */
+  white-space: normal; /* Cambia el valor a "normal" para permitir saltos de línea */
+  word-wrap: break-word; /* Permite que las palabras se dividan si son demasiado largas */
   border-right: 2px solid  #3f3; /* Efecto de texto parpadeante */
   animation: typing 5s steps(40, end), blink-caret 5s step-end infinite;
+}
+@media (max-width: 360px) {
+  #saludoText {
+    font-size: 6vw; /* Tamaño de fuente relativo para pantallas pequeñas */
+    margin-top: 10px; /* Espacio superior más grande en pantallas pequeñas */
+  }
 }
 
 /* Agrega la animación para el texto que aparece letra por letra */
@@ -161,7 +167,7 @@ body::before {
 
 @media (max-width: 575px) {
   body::after {
-    /* content: "SHAO ROMANTICO / HACKEANDO TU CORAZÓN / MY SHUNGO LATE FOR YOU"; */
+    
     top: auto; /* Reinicia la posición vertical en pantallas pequeñas */
     left: 0; /* Asegura que el texto esté alineado a la izquierda */
     position: relative; /* Cambia a posición relativa para ajustar verticalmente */
