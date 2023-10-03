@@ -1,16 +1,18 @@
 <!-- Agrega estas modificaciones a tu HTML -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHAO MENSAJE</title>
-    <link rel="stylesheet" media="all" href="style2.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHAO MENSAJE</title>
+  <link rel="stylesheet" media="all" href="style2.css" />
 </head>
+
 <body>
   <div class="container">
     <input type="text" id="nombreInput" placeholder="Ingresa tu nombre">
-<button id="saludoButton" class="saludo">Enviar</button>
+    <button id="saludoButton" class="saludo">Enviar</button>
   </div>
   <div id="saludoText" class="saludo hidden"></div>
 
@@ -24,7 +26,16 @@
     // Agrega un evento para mostrar el saludo al hacer clic en el botón
     saludoButton.addEventListener("click", () => {
       const nombre = nombreInput.value;
-      const saludo = `Hola hermosa ${nombre}, te quería desear buenas noches.`;
+      const saludo =  `Hola hermosa ${nombre}, antes de que la noche caiga,
+Quiero decirte algo.
+Tus ojos brillan como estrellas en el cielo,
+Y en cada mirada, encuentro un consuelo.
+Recuerda ponerte bloqueador solar.
+Ponte una gorra, lleva un paraguas por si las moscas.
+cruza la calle viendo a ambos lados
+toma aguita,mantente hidratada.
+Así que, hermosa ${nombre}, este mensaje es sincero,
+de tu buen amigo SHAO <3`;
 
       // Oculta el input y muestra el saludo con animación letra por letra
       nombreInput.classList.add("hidden");
@@ -51,4 +62,5 @@
     }
   </script>
 </body>
+
 </html>
