@@ -373,7 +373,7 @@ body::after {
   }
 }
 body::before {
-  content: "SHAO ROMANTICO / HACKEANDO TU CORAZÓN / MY SHUNGO LATE FOR YOU";
+  content: "SHAO ROMANTICO / HACKEANDO TU CORAZÓN / MY SHUNGO LATE FOR YOU"; 
   display: block;
   position: absolute;
   bottom: 0;
@@ -461,7 +461,7 @@ body::before {
 
 @media (max-width: 575px) {
   body::after {
-    content: "SHAO ROMANTICO / HACKEANDO TU CORAZÓN / MY SHUNGO LATE FOR YOU";
+    /* content: "SHAO ROMANTICO / HACKEANDO TU CORAZÓN / MY SHUNGO LATE FOR YOU"; */
     top: auto; /* Reinicia la posición vertical en pantallas pequeñas */
     left: 0; /* Asegura que el texto esté alineado a la izquierda */
     position: relative; /* Cambia a posición relativa para ajustar verticalmente */
