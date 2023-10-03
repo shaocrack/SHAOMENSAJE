@@ -22,7 +22,7 @@
   white-space: nowrap; /* Evita el salto de línea en el texto */
   overflow: hidden; /* Oculta el texto que desborda el contenedor */
   border-right: 2px solid  #3f3; /* Efecto de texto parpadeante */
-  animation: typing 20s steps(40, end), blink-caret 0.5s step-end infinite;
+  animation: typing 5s steps(40, end), blink-caret 5s step-end infinite;
 }
 
 /* Agrega la animación para el texto que aparece letra por letra */
